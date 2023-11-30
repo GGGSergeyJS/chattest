@@ -6,7 +6,9 @@
 
 #root {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .App {
@@ -20,6 +22,10 @@
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+}
+
+.post__btns {
+    display: flex;
 }
 
 /* .post-enter {
@@ -67,4 +73,25 @@
 .page__current {
     border: 2px solid orange;
     font-weight: bold;
+}
+
+.navbar {
+    height: 50px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgray;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
+
+.navbar__link {
+    margin-right: 15px;
+}
+
+.comments {
+    width: 800px;
 }
