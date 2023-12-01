@@ -26,14 +26,6 @@ const PostList = ({ posts, title, remove }) => {
                     </CSSTransition>
                 ))}
             </TransitionGroup>
-            {/* {posts.map((post, index) => (
-                <PostItem
-                    remove={remove}
-                    number={index + 1}
-                    post={post}
-                    key={post.id}
-                />
-            ))} */}
         </div>
     );
 };
