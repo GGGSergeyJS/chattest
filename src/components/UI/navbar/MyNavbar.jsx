@@ -18,7 +18,10 @@ const MyNavbar = () => {
                 <Link className="navbar__link" to="/about">
                     О сайте
                 </Link>
-                <Link to="/posts">Посты</Link>
+                <Link className="navbar__link" to="/posts">
+                    Посты
+                </Link>
+                <Link to="/timer">Таймер</Link>
             </div>
         </div>
     );

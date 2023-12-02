@@ -1,3 +1,4 @@
+import Timer from "../components/Timer";
 import About from "../pages/About";
 import Error from "../pages/Error";
 import Login from "../pages/Login";
@@ -9,6 +10,7 @@ export const privateRoutes = [
     { path: "/about", element: <About />, exact: true },
     { path: "/posts", element: <Posts />, exact: true },
     { path: "/posts/:id", element: <PostIdPage />, exact: true },
+    { path: "/timer", element: <Timer />, exact: true },
     { path: "/error", element: <Error />, exact: true },
     { path: "/login", element: <Navigate replace to="/posts" />, exact: true },
     { path: "/", element: <Navigate replace to="/posts" />, exact: true },
